@@ -1,5 +1,5 @@
 <div class="tags">
     {{ range .Params.Tags }}
-        <a class="button is-link" href="{{ $.Site.BaseURL }}{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+        <a class="button is-link" href="{{ $.Site.BaseURL }}{{ "tags/" }}{{ . | urlize }}">{{ . }}</a>
     {{ end }}
 </div>
